@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+import os
+import re
+
 from setuptools import setup
 
 with open('requirements.txt') as f:
