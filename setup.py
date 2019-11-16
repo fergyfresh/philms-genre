@@ -2,7 +2,7 @@
 from setuptools import setup
 
 with open('requirements.txt') as f:
-    requirements = [i for i in f.read().splitlines()
+    requirements = [i for i in f.read().splitlines()]
 
 def get_version(package):
     """
